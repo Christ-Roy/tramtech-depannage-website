@@ -1,0 +1,38 @@
+theme: minima
+title: "Tramtech Dépannage - Serrurier Lyon"
+description: "Services de serrurerie, plomberie, électricité et travaux à Lyon. Dépannage 7j/7."
+url: "https://christ-roy.github.io"
+baseurl: "/tramtech-depannage-website"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# SEO
+lang: fr
+author: "SASU Tram Tech Services"
+social:
+  name: Tramtech Dépannage
+  links:
+    - https://facebook.com/309746442794532
+
+# Contact
+phone: "07 82 92 45 37"
+email: "tramtech@wanadoo.fr"
+address: "7 Avenue Berthelot, 69007 Lyon"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
